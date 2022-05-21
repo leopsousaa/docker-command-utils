@@ -9,4 +9,6 @@
 
 > docker exec -it name_container psql -U user -W postgres
 
+## List process in port 5432 - Mac
 
+> sudo lsof -i :5432
